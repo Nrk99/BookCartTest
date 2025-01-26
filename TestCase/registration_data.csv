@@ -1,0 +1,8 @@
+firstname,lastname,username,password,confirm_password,gender
+John,Doe,john.doe,Password123,Password123,male
+Jane,Smith,jane.smith,SecurePass456,SecurePass456,female
+Alice,Johnson,alice.johnson,MyPass789,MyPass789,female
+Bob,White,bob.white,TestPass000,TestPass000,male
+Charlie,Brown,charlie.brown,StrongPass321,StrongPass321,male
+Emily,Clark,emily.clark,HappyPass123,HappyPass123,female
+David,Wilson,david.wilson,DavidPass2023,DavidPass2023,male

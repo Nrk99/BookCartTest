@@ -1,0 +1,44 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Selenium WebDriver binaries (ChromeDriver, GeckoDriver, etc.)
+# You can modify or add specific drivers depending on your project
+chromedriver/
+geckodriver/
+msedgedriver/
+
+# Logs and test results
+*.log
+test_reports/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution files (for packaging)
+*.egg
+*.egg-info
+dist/
+build/
+*.whl
+
+# Python packaging configuration
+*.tox/
+*.nox/
+*.coverage
+*.hypothesis/
+*.pytest_cache/
