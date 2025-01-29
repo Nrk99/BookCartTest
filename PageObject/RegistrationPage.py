@@ -80,9 +80,10 @@ class RegistrationPage:
             try:
                 # Wait for the message element to be visible
                 message_element = WebDriverWait(self.driver, 10).until(
-                    EC.visibility_of_element_located((By.T, "Login"))  # Replace with the correct ID
+                    EC.visibility_of_element_located((By.LINK_TEXT, "Login"))  # Replace with the correct ID
                 )
                 return message_element.text.strip() if message_element else None
             except:
                 # If message is not found or another error occurs, return an empty string or a default error message
                 return "" 
+

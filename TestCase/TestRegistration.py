@@ -8,6 +8,7 @@ from PageObject.RegistrationPage import RegistrationPage
 class TestRegistration(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
+        self.driver.maximize_window()
         self.RP = RegistrationPage(self.driver)
 
     def test_registration(self):
@@ -30,7 +31,7 @@ class TestRegistration(unittest.TestCase):
         # Assert for successful registration (based on success message or redirection) currently there is  no sucess message.
         if success_message:
             if "Registration is successful" in success_message:
-                self.assertTrue(success_message, f"Registration failed for row {index}")
+                self.assertTrue(success_message, f"Registration Sucessful {index}")
             else:
                 self.fail(f"No message displayed after registration for row {index}")
 
